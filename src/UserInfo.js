@@ -79,5 +79,35 @@ export const userInfo = [
         jobTitle: "Marketing Coordinator",
         salary: 75000  
     },
+    {
+        fullname: "Daniel Johnson",
+        profilePic: "https://picsum.photos/id/112/2592/1936",
+        jobTitle: "UX Designer",
+        salary: 85000
+    },
+    {
+        fullname: "Emma Smith",
+        profilePic: "https://picsum.photos/id/113/2592/1936",
+        jobTitle: "Software Engineer",
+        salary: 90000
+    },
+    {
+        fullname: "Matthew Davis",
+        profilePic: "https://picsum.photos/id/114/2592/1936",
+        jobTitle: "Software Engineer",
+        salary: 85000
+    },
+    {
+        fullname: "Abigail Wilson",
+        profilePic: "https://picsum.photos/id/115/2592/1936",
+        jobTitle: "Product Manager",
+        salary: 95000
+    },
+    {
+        fullname: "Andrew Johnson",
+        profilePic: "https://picsum.photos/id/116/2592/1936",
+        jobTitle: "Marketing Coordinator",
+        salary: 75000
+    },
     // TODO: Add more user objects
 ];

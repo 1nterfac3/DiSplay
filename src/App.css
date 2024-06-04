@@ -1,6 +1,6 @@
 body {
   font-family: "Quicksand", sans-serif;
-  color: white;
+  color: rgb(238, 253, 255);
   background: rgb(16,22,47);
   background: linear-gradient(90deg, rgb(36, 76, 122) 0%, rgb(138, 50, 238) 100%);
 }
@@ -16,6 +16,38 @@ body {
 .App-Header-Content {
   text-align: center;
 }
+
+.SearchBar-Container {
+  margin: 2%;
+  padding: 2%;
+  justify-content: center;
+  display: grid;
+  margin-bottom: 2%;
+}
+
+input[type="text"] {
+  font-size: 23px;
+  font-family: "Quicksand", sans-serif;
+  color: white;
+  border-bottom: 2.23px solid white;
+  width: 40%;
+  background: transparent;
+}
+
+button {
+  outline: none;
+  padding: 10px;
+  color: white;
+  background: purple;
+  width: 10%;
+  cursor: pointer;
+  font-family: "Quicksand", sans-serif;
+  width: 70%;
+  border-radius: 5px;
+
+  font-size: 135%;
+}
+
 
 .Company-logo {
   border-radius: 45%;
@@ -34,11 +66,11 @@ body {
   overflow: hidden;
   border-radius: 5%;
   background-color: white;
-  color: black;
+  color: rgb(80, 0, 185);
   margin-left: 0.5%;
   margin-right: 2%;
   margin-bottom: 2%;
-  box-shadow: 2.5px 3px;
+  box-shadow: 2.5px 3px black;
   text-align: center;
 }
 
@@ -66,5 +98,9 @@ body {
 @media (max-width: 1200px) {
   .User {
     margin: 1rem;
+  }
+
+  .Image-Container {
+    width: 350px;
   }
 }

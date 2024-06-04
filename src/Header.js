@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import SearchBar from './SearchBar';
 
 
 const Header = (props) => {
@@ -11,6 +12,7 @@ const Header = (props) => {
                 <h1>{props.title}</h1>
                 <p>{props.desc}</p>
             </div>
+            <SearchBar />
         </div>
     );
 };
