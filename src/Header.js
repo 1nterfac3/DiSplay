@@ -16,7 +16,7 @@ const Header = (props) => {
 };
 
 Header.defaultProps = {
-    imageSrc: 'https://picsum.photos/seed/picsum/200/300',
+    imageSrc: '/images/logo.webp',
     alt: 'Company Logo',
     title: 'DiSplay',
     desc: 'Sample Description'
