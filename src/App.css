@@ -1,0 +1,70 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  color: white;
+  background: rgb(16,22,47);
+  background: linear-gradient(90deg, rgb(36, 76, 122) 0%, rgb(138, 50, 238) 100%);
+}
+
+.App-Header {
+  /* border: 1px solid white; */
+  margin: 2%;
+  padding: 2%;
+  display: grid;
+  justify-content: center;
+}
+
+.App-Header-Content {
+  text-align: center;
+}
+
+.Company-logo {
+  border-radius: 45%;
+  height: 140px;
+  width: 140px;
+}
+
+.Image-Container {
+  /* max-width: 262px;
+  max-height: 305px; */
+  width: 260px;
+  height: 300px;
+  border: 1px solid white;
+  display: inline-block;
+  padding: 2.2%;
+  overflow: hidden;
+  border-radius: 5%;
+  background-color: white;
+  color: black;
+  margin-left: 0.5%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  box-shadow: 2.5px 3px;
+  text-align: center;
+}
+
+.user-image {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+
+.Image-Container:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Styles for screens with a maximum width of 600px */
+@media (max-width: 600px) {
+  .App-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* Styles for screens with a maximum width of 1200px */
+@media (max-width: 1200px) {
+  .User {
+    margin: 1rem;
+  }
+}
